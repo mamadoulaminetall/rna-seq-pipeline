@@ -1,1 +1,0 @@
-# rna-seq-pipeline

@@ -1,0 +1,10 @@
+# Configuration file
+samples:
+  sample1: data/sample1_R1.fastq.gz
+  sample2: data/sample2_R1.fastq.gz
+
+reference_genome: "data/genome.fa"
+gtf_file: "data/annotation.gtf"
+
+output_dir: "results/"
+threads: 4

@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  snakemake:
+    build: .
+    volumes:
+      - ./data:/data
+      - ./results:/results
+    working_dir: /app
